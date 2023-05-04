@@ -1,0 +1,15 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+
+
+
+$header-blue: rgb(51, 77, 92) ;
+
+  $custom-colors : (
+
+    "header-blue" : $header-blue ,
+  );
+
+  $theme-colors : map-merge($theme-colors , $custom-colors);
+

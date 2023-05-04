@@ -1,0 +1,10 @@
+@import "./_variables";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./_fonts";
+@import "./modules/_allModules";
+
+$theme-colors : map-merge($theme-colors , $custom-colors);
+
+.sec-1{
+  background-color: $header-blue;
+}
